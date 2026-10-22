@@ -1,7 +1,6 @@
 package ex04;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class FuncTest2 {
@@ -28,7 +27,7 @@ public class FuncTest2 {
 		input();
 		process();
 		output();
-		
+		System.out.println("End.........");
 	}
 	
 	//input
@@ -51,7 +50,7 @@ public class FuncTest2 {
 	}
 	//process
 	private static void process() {
-		//중요: 문자 비교는 == 을 사용하지 않고 .equals를 사용
+		//중요: 문자 비교는 == 을 사용하지 않고 .equals를 사용 
 		//.compareTo는 글자의 순서 비교
 		if(man.equals("1")) {
 			gender = "남자";
@@ -84,7 +83,7 @@ public class FuncTest2 {
 
 	//나이 계산 함수
 	
-	
+	//output
 	private static void output() {
 		
 		System.out.println("이름은 " + name);
