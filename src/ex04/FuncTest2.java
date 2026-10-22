@@ -27,7 +27,7 @@ public class FuncTest2 {
 		input();
 		process();
 		output();
-		System.out.println("End.........");
+		System.out.println("End.......");
 	}
 	
 	//input
