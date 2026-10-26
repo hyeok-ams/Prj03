@@ -67,7 +67,7 @@ public class FuncTest2 {
 		}
 		
 		if(birthYear < 100)
-		{
+		{	//
 			birthYear = birthYear + 1900;
 		}
 		
